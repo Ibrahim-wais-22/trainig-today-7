@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#home{
+    background-color: #5E5E5E;
+    background-image: url(360_F_467930159_UcfrOkjhFG436zoT9fSetYccBgpNkokp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.col-lg-4{
+    position: relative;
+}
+.mobile-img{
+    width: 100%;
+    transform: rotate(35deg);
+    max-width: 380px;
+    transition: all ease 1s;
+    position: absolute;
+    left: -180px;
+}
+ .banner-title{
+    font-family: 'Open Sans';
+    color: #fff;
+    position: relative;
+    top: 100%;
+    font-size: 50px;
+ }
+
+ #download{
+    height: 100vh;
+    width: 100%;
+    background-color: #424242;
+    position: relative;
+    z-index: 1;
+ }

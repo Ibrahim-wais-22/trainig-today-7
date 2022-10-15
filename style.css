@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+.sec-home{
+    background-color: #5E5E5E;
+    width: 100%;
+    height: 95vh;
+    
+}
+.cont-btn{
+    border-radius: 30px;
+}
+.col-lg-4{
+    position: relative;
+}
+.mobile-img{
+    width: 70%;
+    transform: rotate(35deg);
+    position: absolute;
+    left: -19%;
+    top: -5%;
+    
+}
+.mobile-img2{
+    width: 22%;
+    transform: rotate(-35deg);
+    position: absolute;
+    left: 56%;
+    z-index: 0;
+}
+.title-home{
+    font-size: 55px;
+    font-family: 'Open Sans';
+    position: relative;
+    left: 8%;
+}
+#download{
+    background-color:#424242;
+    width: 100%;
+    height: 150vh;
+    position: relative;
+    z-index: 1;
+}
+.logos{
+    position: absolute;    
+    top: 35%;
+    left: 1%;
+    z-index: 0;
+}
+
+footer {
+    width: 100%;
+    height:50vh;
+   
+}
